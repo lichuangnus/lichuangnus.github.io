@@ -66,6 +66,9 @@ My research interests include Conversational Recommendation Systems and Interact
 <div class="publication-card">
   <p class="publication-title"><strong>[ECIR 2024]</strong> Lightweight Modality Adaptation to Sequential Recommendation via Correlation Supervision</p>
   <p class="publication-authors">H. Hu, Q. Liu, <span class="me">C. Li</span>, M.Y. Kan</p>
+  <p class="publication-links">
+    <a href="https://arxiv.org/pdf/2401.07257"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Paper</a>
+  </p>
 </div>
 
 <div class="publication-card">
