@@ -8,20 +8,20 @@
     <meta name="color-scheme" content="light dark">
 
     
-      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 39 115 101 108 102 39; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 39 115 101 108 102 39; frame-src 39 115 101 108 102 39; img-src 39 115 101 108 102 39; object-src 39 110 111 110 101 39; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 39 115 101 108 102 39; connect-src 'self' https://www.google-analytics.com;">
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
 
     
 
     <meta name="author" content="Victor Li Chuang">
-    <meta name="description" content="Projects information will be uploaded accordingly!">
+    <meta name="description" content="Research projects on conversational recommendation and dialogue systems by Victor Li Chuang.">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Projects"/>
-<meta name="twitter:description" content="Projects information will be uploaded accordingly!"/>
+<meta name="twitter:description" content="Research projects on conversational recommendation and dialogue systems by Victor Li Chuang."/>
 
     <meta property="og:title" content="Projects" />
-<meta property="og:description" content="Projects information will be uploaded accordingly!" />
+<meta property="og:description" content="Research projects on conversational recommendation and dialogue systems by Victor Li Chuang." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lichuangnus.github.io/projects/" /><meta property="article:section" content="" />
 
@@ -128,7 +128,7 @@
                 
               
               <li class="navigation-item">
-                <a href="https://lichuangnus.github.io/pt-cn/projects/">🇨🇳</a>
+                <a href="https://lichuangnus.github.io/pt-cn/projects/">中文</a>
               </li>
             
           
@@ -169,6 +169,26 @@
       </h2>
     </header>
     <p> In previous zero-shot DST, transferring learning methods are adopted while the unlabelled data in the target domain is ignored. We leverage the unlabelled data in the zero-shot DST by transforming the zero-shot problem into a few-shot problem with a two-step training strategy. Our proposed methods outperform the baseline by 8%</p>
+      <header>
+      <h2 class="subtitle">
+        <a class="title" href="https://lichuangnus.github.io/projects/project3">
+          Incorporating External Knowledge and Goal Guidance for LLM-based Conversational Recommender Systems (ChatCRS)
+        </a> <br>
+        <br>
+        <a href="https://arxiv.org/abs/2405.01868">Paper</a>, <a href="https://github.com/lichuangnus/ChatCRS">Github</a>
+      </h2>
+    </header>
+    <p> Even the most advanced LLMs struggle to generate grounded, recommendation-oriented responses, or to proactively steer a conversation through different dialogue goals. We introduce <em>ChatCRS</em>, a framework that decomposes conversational recommendation into a knowledge retrieval agent, which reasons over external knowledge bases through a tool-augmented approach, and a goal-planning agent that predicts the next dialogue goal. Combining knowledge grounding with explicit goal planning improves informativeness by 17% and proactivity by 27%, and boosts recommendation accuracy by up to 10x on multi-goal recommendation datasets.</p>
+      <header>
+      <h2 class="subtitle">
+        <a class="title" href="https://lichuangnus.github.io/projects/project4">
+          Improving Conversational Recommendation with Contextual Adaptation of External Recommenders and LLM-Based Reranking (CARE)
+        </a> <br>
+        <br>
+        <a href="https://arxiv.org/pdf/2508.13889">Paper</a>, <a href="https://github.com/lichuangnus/CARE-CRS_ECIR2026">Github</a>
+      </h2>
+    </header>
+    <p> LLMs used directly as conversational recommenders frequently suggest items outside the target catalogue, and lean almost entirely on dialogue context for content-based suggestions — neglecting the collaborative signals among item sequences that traditional recommenders capture well. <em>CARE</em> combines an external recommender system, acting as a domain expert grounded in collaborative signals, with an LLM functioning as a reranker over its candidates using the full conversational context. This contextual adaptation improves recommendation accuracy by an average of 54% on ReDial and 25% on INSPIRED over using either component alone, even in low-resource settings.</p>
 
   </article>
 </section>
