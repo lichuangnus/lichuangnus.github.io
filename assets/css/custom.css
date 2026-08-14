@@ -1,0 +1,34 @@
+.publication-card {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 8px;
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0;
+  background: rgba(128, 128, 128, 0.05);
+}
+
+.publication-card .publication-title {
+  margin-top: 0;
+}
+
+.publication-card .publication-authors {
+  margin: 0.5em 0;
+  opacity: 0.85;
+  font-size: 0.95em;
+}
+
+.publication-card .publication-authors .me {
+  font-weight: 700;
+  opacity: 1;
+}
+
+.publication-card .publication-links {
+  margin: 0.8em 0 0;
+  display: flex;
+  gap: 1.4em;
+}
+
+.publication-card .publication-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}

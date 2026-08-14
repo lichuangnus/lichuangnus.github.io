@@ -28,7 +28,7 @@ rtl = false
 colorScheme = "auto"
 hideColorSchemeToggle = false
 maxSeeAlsoItems = 5
-customCSS = []
+customCSS = ["css/custom.css"]
 customSCSS = []
 customJS = []
 customRemoteJS = []
@@ -76,6 +76,12 @@ name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 3
 url = "https://www.linkedin.com/in/victorlinus/"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "fa-brands fa-google-scholar fa-2x"
+weight = 4
+url = "https://scholar.google.com/citations?user=_9Q_D1MAAAAJ&hl=en"
 
 [taxonomies]
 category = "categories"
