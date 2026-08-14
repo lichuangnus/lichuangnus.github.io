@@ -84,7 +84,7 @@ My research interests include Conversational Recommendation Systems and Interact
 
 ## Education
 
-<div class="education">
+<div class="education-card">
   <p><strong>PhD in Computer Science</strong> — National University of Singapore, Graduate School for Integrative Sciences and Engineering (ISEP) <em>(2020–2025)</em></p>
   <ul>
     <li>CAP: 4.71/5.0</li>
@@ -94,7 +94,7 @@ My research interests include Conversational Recommendation Systems and Interact
   </ul>
 </div>
 
-<div class="education">
+<div class="education-card">
   <p><strong>B.Eng in Electrical &amp; Computer Engineering, 1st Class Honours</strong> — National University of Singapore <em>(2016–2020)</em></p>
   <ul>
     <li>CAP: 4.71/5.0</li>
@@ -102,21 +102,21 @@ My research interests include Conversational Recommendation Systems and Interact
   </ul>
 </div>
 
-<div class="education">
+<div class="education-card">
   <p><strong>Centrale Supélec</strong> — Paris, France <em>(Spring 2019)</em></p>
   <ul>
     <li>NUS Student Exchange Programme</li>
   </ul>
 </div>
 
-<div class="education">
+<div class="education-card">
   <p><strong>Hanyang University</strong> — Seoul, South Korea <em>(Summer 2017)</em></p>
   <ul>
     <li>Summer Exchange Programme</li>
   </ul>
 </div>
 
-<div class="education">
+<div class="education-card">
   <p><strong>Université de Strasbourg</strong> — Strasbourg, France <em>(Summer 2017)</em></p>
   <ul>
     <li>French Language Immersion Programme</li>

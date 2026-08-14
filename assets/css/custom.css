@@ -1,9 +1,9 @@
 .publication-card {
-  border: 1px solid rgba(128, 128, 128, 0.3);
+  border: 1px solid rgba(33, 150, 243, 0.3);
   border-radius: 8px;
   padding: 1.2em 1.5em;
   margin: 1.5em 0;
-  background: rgba(128, 128, 128, 0.05);
+  background: rgba(33, 150, 243, 0.08);
 }
 
 .publication-card .publication-title {
@@ -31,4 +31,16 @@
   display: inline-flex;
   align-items: center;
   gap: 0.4em;
+}
+
+.education-card {
+  border: 1px solid rgba(33, 150, 243, 0.3);
+  border-radius: 8px;
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0;
+  background: rgba(33, 150, 243, 0.08);
+}
+
+.education-card p {
+  margin-top: 0;
 }
