@@ -1,6 +1,7 @@
 ---
 title: "Improving Conversational Recommendation with Contextual Adaptation of External Recommenders and LLM-Based Reranking (CARE)"
 description: "CARE: Contextual Adaptation of Recommenders for LLM-based Conversational Recommendation."
+date: 2026-01-01
 ---
 
 [Paper](https://arxiv.org/pdf/2508.13889), [Github](https://github.com/lichuangnus/CARE-CRS_ECIR2026)

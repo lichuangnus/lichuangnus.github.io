@@ -1,6 +1,7 @@
 ---
 title: "Incorporating External Knowledge and Goal Guidance for LLM-based Conversational Recommender Systems (ChatCRS)"
 description: "ChatCRS: Incorporating External Knowledge and Goal Guidance for LLM-based Conversational Recommender Systems."
+date: 2025-01-01
 ---
 
 [Paper](https://arxiv.org/abs/2405.01868), [Github](https://github.com/lichuangnus/ChatCRS)

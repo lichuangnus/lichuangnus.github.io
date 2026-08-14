@@ -1,6 +1,7 @@
 ---
 title: "A Conversation is Worth A Thousand Recommendations: A Survey of Holistic Conversational Recommendation Systems"
 description: "A comprehensive survey of holistic conversational recommendation systems."
+date: 2023-01-01
 ---
 
 [Paper](https://arxiv.org/abs/2309.07682), [Github](https://github.com/lichuangnus/CRS-Paper-List)
